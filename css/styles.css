@@ -17,6 +17,10 @@ ul {
   padding-left: 0;
 }
 
+.conteiner{
+
+}
+
 body {
   font-family: "Roboto", "sans-serif";
   font-weight: 600;
@@ -88,7 +92,7 @@ header {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--first-title-color);
-  /* flex: none; */
+
   order: 0;
   flex-grow: 0;
 }
@@ -246,7 +250,10 @@ footer {
   flex-grow: 0;
 }
 
-.portfolio_list{display: flex;}
+.portfolio_list{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .portfolio_link {
   border: 0.5px solid #f4f4fd;
