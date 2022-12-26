@@ -72,13 +72,14 @@ ul {
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 75px;
+
 }
 .logo_span {
   color: var(--color-navigation);
@@ -221,9 +222,7 @@ footer {
   color: #e7e9fc;
   margin-top: 16px;
   width: 264px;
-}
-
-.buttons_links_options {
+  font-weight: 400;
 }
 
 .portfolio_buttons {
@@ -266,6 +265,7 @@ footer {
 .portfolio_list {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 120px;
 }
 
 .portfolio_link {
