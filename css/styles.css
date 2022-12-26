@@ -59,6 +59,9 @@ ul {
 .display_flex {
   display: flex;
 }
+.margi_b_48{
+  margin-bottom: 48px;
+ }
 .margi_r_40 {
   margin-right: 40px;
 }
