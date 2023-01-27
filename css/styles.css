@@ -322,6 +322,10 @@ footer {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
+  padding-right: 16px;
+  width: 100%;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio_header {
   font-weight: 500;
