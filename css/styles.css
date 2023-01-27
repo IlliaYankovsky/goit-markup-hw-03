@@ -36,9 +36,11 @@ footer {
   padding-bottom: 100px;
 }
 
+.flex {
+  display: flex;
+}
+
 .section {
-  /* padding-left: 15x;
-  padding-right: 15px; */
   margin: 0 auto;
   display: inherit;
   padding-top: 120px;
@@ -47,11 +49,9 @@ footer {
 
 .container {
   width: 1158px;
-  /* outline: 1px solid red; */
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  display: inherit;
 }
 
 .link_function:hover,
@@ -66,8 +66,8 @@ footer {
 }
 
 .link_function {
-  margin-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 
 .link {
@@ -108,10 +108,7 @@ footer {
   color: var(--first-title-color);
   order: 0;
   flex-grow: 0;
-  margin-right: 332px;
   display: flex;
-  margin-top: 24px;
-  /* justify-content: space-between; */
   gap: 40px;
 }
 .hat_header_contacts {
@@ -119,7 +116,6 @@ footer {
   color: var(--color-link);
   margin-left: auto;
   font-weight: 400;
-  margin-top: 24px;
   display: flex;
   gap: 40px;
 }
